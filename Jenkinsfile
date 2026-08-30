@@ -58,7 +58,7 @@ pipeline {
                             echo "gitops directory exists. Removing it..."
                             rm -rf gitops
                         fi
-                        git clone https://$GIT_USERNAME:$GIT_PASSWORD@github.com/ITkannadigaru/GitOps.git gitops
+                        git clone https://$GIT_USERNAME:$GIT_PASSWORD@github.com/Manoj-agni/GitOps.git gitops
                         cd gitops/base/productcatalogservice/
 
                         git config user.email "jenkins@ci.com"
