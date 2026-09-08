@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "maruti22/productcatalogservice:${GIT_COMMIT}"
+        IMAGE_NAME = "agnimanu/productcatalogservice:${GIT_COMMIT}"
     }
 
     stages {
